@@ -7,17 +7,19 @@ I have tried my level best to make use of our so far journey and the knowledge t
 I have gained so far at Masai School to come up with my first project.
 
 My name is :-
-              Swapnil Gote
+               Swapnil Gote
 
 Getting Started…
 It was a challenging journey for me to complete it within the time of construct week,
 so I faced different challenges like it was my first project and i did not have any experience working 
-in a project also i did not know how to manage everything within the time period. So i started with planning and studying the website.
+in a project also i did not know how to manage everything within the time period.
+So i started with planning and studying the website.
 
 Project Details -
 
 I had to make a replica of the DECCAN Chronical.
-DECCAN Chronical, is a News based website in India. It provides News, including India and other country also. 
+DECCAN Chronical, is a News based website in India.
+It provides News, including India and other country also. 
 I have tried our best to clone the replica of the website.
 Tech Stacks used -
 
@@ -29,7 +31,8 @@ Some Glimpse and img of our website:-
 Home Page -
 
 HOME PAGE
-This is the main landing page of our website. Here clicking on any option on the Navbar will redirect the user to the respective Product Page.
+This is the main landing page of our website.
+Here clicking on any option on the Navbar will redirect the user to the respective Product Page.
 It is fully functional and responsive.
 
 
@@ -74,7 +77,7 @@ At last, I would like to thank masai school for their support & guidance during 
 
 Source Code
 
-(MY GitHub Link):-
+(MY GitHub Link):-https://github.com/Swwapnil123/Project-DECCAN-Chronocal/edit/master/README.md
 
 (MY Netlify link):- https://funny-phoenix-cd7529.netlify.app/
 
