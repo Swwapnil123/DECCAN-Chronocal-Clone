@@ -1,0 +1,120 @@
+/* #box{
+    border: 1px solid;
+    height: 150px;
+    width: 80%;
+    
+    margin: auto;
+}
+#container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 15px;
+    gap: 10px;
+}
+#A{
+    border: 1px solid;
+    height: 800px;
+    width: 400px;
+}
+#A>div{
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+}
+#B{
+    border: 1px solid;
+    height: 900px;
+    width: 300px;
+}
+#B>div{
+    border: 1px solid;
+    height: 60px;
+    width: 100px;
+}
+#C{
+    border: 1px solid;
+    height: 800px;
+    width: 400px;
+}
+#C>div{
+    border: 1px solid ;
+    height: 100px;
+    width: 100px;
+}
+.DAY{
+    display: flex;
+    border: 1px solid;
+    width: 90%;
+    margin: auto;
+}
+.DAY>div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+}
+#D{
+    border: 1px solid;
+    height: 400px;
+    width: 400px;
+}
+#E{
+    border: 1px solid;
+    height: 400px;
+    width: 400px;
+}
+#F{
+    border: 1px solid;
+    height: 400px;
+    width: 400px;
+}
+#G{
+    border: 1px solid;
+    height: 400px;
+    width: 400px;
+}
+#H{
+    border: 1px solid;
+    height: 400px;
+    width: 400px;
+}
+#I{
+    border: 1px solid;
+    height: 400px;
+    width: 400px;
+}
+#J{
+    border: 1px solid;
+    height: 400px;
+    width: 400px;
+}
+#K{
+    border: 1px solid;
+    height: 400px;
+    width: 400px;
+}
+#L{
+    border: 1px solid;
+    height: 400px;
+    width: 400px;
+}
+#M{
+    border: 1px solid;
+    height: 400px;
+    width: 400px;
+}
+#N{
+    border: 1px solid;
+    height: 400px;
+    width: 400px;
+}
+#O{
+    border: 1px solid;
+    height: 400px;
+    width: 400px;
+}
+#P{
+    border: 1px solid;
+    height: 400px;
+    width: 400px;
+} */

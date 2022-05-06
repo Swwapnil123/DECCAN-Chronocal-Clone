@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    #box{
+        border: 1px solid;
+        height: 150px;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10px;
+
+    }
+    #box>img{
+        height: 150px;
+        width: 100%;
+    }
+    #container{
+
+        display: flex;
+        width: 90%;
+        margin: auto;
+        padding-top: 15px;
+        gap: 8px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    }
+    /* ......................................................................................................... */
+    #A{
+        /* border: 1px solid; */
+        height: 1200px;
+        width: 400px;
+        cursor: pointer;
+        margin-left: 5px;
+    
+
+    }
+    #A>div{
+        /* border: 1px solid; */
+        height: 350px;
+        width: 400px;
+        margin-top: 8px;
+        border-radius: 10px;
+         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+        
+    }
+
+    /* ................................................................................................................ */
+    #B{
+        /* border: 1px solid; */
+        height: 1200px;
+        width: 300px;
+        margin-top: 60px;
+        /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+        cursor: pointer;
+    }
+    #B>div{
+        /* border: 1px solid; */
+        height: 80px;
+        width: 300px;
+        margin-top: 1px;
+        display: flex;
+    }
+    #B>div>div>img{
+        height: 80px;
+        width: 130px;
+    }
+    #B>div>div>p{
+        margin-left: 10px;
+        color: #000000;
+        font-size: 16px;
+    }
+    /* ............................................................................................................. */
+
+    #C{
+        /* border: 1px solid; */
+        margin-top: 10px;
+        height: 1200px;
+        width: 400px;
+        /* gap: 10px; */
+        /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+        cursor: pointer;
+    }
+    #C>div{
+        /* border: 1px solid ; */
+        height: 450px;
+        width: 450px;
+         margin-top: 30px; 
+         /* background-color: #F8F8F8;  */
+        
+    }
+
+    #C>div>div{
+        /* border: 1px solid; */
+        background-color: #F8F8F8; 
+
+        height: 70px;
+        width: 100%;
+         /* margin-top: 5px; */ 
+        display: flex;
+    }
+    #C>div>div>div>h4
+    {
+        font-size: 18px;
+        color: #000000;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    #C>div>div>div>img{
+        height: 70px;
+        width: 120px;
+        margin-right: 15px;
+    }
+
+    #J{
+        /* border: 1px solid; */
+        height: 370px;
+        width: 90%;
+        margin: auto;
+        cursor: pointer;
+    }
+    .tech{
+       
+        /* border: 1px solid; */
+        display: flex;
+        margin-left: 20px;
+    }
+    .tech>div{
+        height: 280px;
+        width: 280px;
+        margin: auto;
+        /* border: 1px solid; */
+    }
+    .tech>div>img{
+        width: 100%;
+        height:160px ;
+    }
+    .tech>div>h3{
+         margin-top: 10px; 
+    }
+     /* ................................................................................................................ */
+     #D{
+        /* border: 1px solid; */
+        height: 430px;
+        width: 90%;
+        margin: auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        cursor: pointer;
+    
+    }
+    .small{
+         /* border: 1px solid;  */
+         height: 35px; 
+        display: flex; 
+    }
+    .small>div{
+         display: flex;  
+        /* gap: 10px; */
+        margin-left: 520px;
+        margin-top: 10px;
+    }
+    .big{
+        display: flex;
+        margin-top: 10px;
+    }
+    .big>div{
+        height: 260px;
+        width: 280px;
+        margin: auto;
+        /* border: 1px solid; */
+    }
+    .big>div>img{
+        width: 100%;
+        height:160px ;
+    }
+    .big>div>h3{
+         margin-top: 10px; 
+    }
+    .medium{
+          display: flex;
+          gap: 7px;
+    }
+    .medium>div{
+        height: 100px;
+        width: 280px;
+        margin-top: 10px;
+        margin-left: 10px;
+        /* border: 1px solid; */
+        display: flex;
+    }
+    .medium>div>div>img{
+        margin-top: 10px;
+        height: 80px;
+        width: 130px;
+    }
+    .medium>div>div>p{
+        margin-left: 10px;
+        color: #000000;
+        font-size: 16px;
+    }
+    
+   /* .......................................................................................................................... */
+      
+   *{
+    font-family: clear sans,Helvetica Neue,Helvetica, Arial, sans-seriff; 
+}
+
+body a:hover{
+    color: teal;
+
+}
+
+#container1{
+    width: 100%;
+    height: 60px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding-left: 15px;
+    display: flex;
+    gap: 10px;
+     background-color: black; 
+
+}
+.a{
+    display: flex;
+    gap: 7px;
+    margin-top: 18px; 
+    margin-left: 60px;
+    color: white;
+
+}
+a{
+    text-decoration: none;
+    /* color: white;  */
+}
+.a1{
+
+   list-style: none;
+}
+
+.b{
+    margin-left: 250px;
+    font-size: 16px;
+    margin-top: 10px;
+    color: white;
+    list-style: none;
+
+}
+#container2{
+    width: 100%;
+    height: 120px;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+    padding-left: 520px;
+}
+#container3{
+    
+    width: 100%;
+    height: 50px;
+    padding-left: 80px;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+    /* margin-top: 10px; */
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+    list-style: none;
+    
+}
+.c1{
+    margin-top: 10px;
+    
+}
+#menu{
+    
+    margin-right: 20px;
+    
+}
+.submenu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+}
+.submenu li{
+    position: relative;
+}
+.submenu li :hover .submenu li{
+    display: block;
+}
+
+     
+</style>
+<body>
+
+    <div id="container1">
+        <div class="a">
+
+       <div class="a1" ><a href="South.html"><img height="30px" src="http://assets.stickpng.com/thumbs/588a64e0d06f6719692a2d10.png"></div> </a>
+
+       <div> <p> <a class="a2" style="color: white; font-size: 18px; padding-bottom: 10px;" href="header.html">e-Paper | Sunday Chronicle </a></p> </div>
+      <!-- <div> <p> <a class="a2" href="header.html">Sunday Chronicle </a></p> </div> -->
+      <div class="a1"><a href="South.html"><img height="30px" src="https://cdn-icons.flaticon.com/png/512/3670/premium/3670124.png?token=exp=1651252867~hmac=9a373d3e18eb3596cfb5ae5148155d07"></div> </a>
+      <div class="a1"><a href="South.html"><img height="30px"src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_twitter-256.png"></div> </a>
+      <div class="a1"><a href="South.html"><img height="30px"src="https://cdn0.iconfinder.com/data/icons/social-media-circle-6/1024/instagram-256.png"></div> </a>
+      <div class="a1"><a href="South.html"><img height="30px"src="https://qph.fs.quoracdn.net/main-qimg-276c27ca176f98bd807f9738416aa025"></div> </a>
+     </div>
+     <div class="b">
+      <div> <p> <a id="a1" style="color: white;" href="South.html">▢ Auto Refresh | CORPORATE INSOLVENCY RESOLUTION PROCESS</a></p> </div>
+      <!-- <div> <p> <a id="a1" href="header.html">CORPORATE INSOLVENCY RESOLUTION PROCESS</a></p> </div> -->
+     </div>
+   </div>
+   <!-- ........................... -->
+   
+  
+
+     <div id="container2">
+      <div class="b1"><a href="South.html"><img style="height: 75px;" src="https://d2u6vujtbrga6l.cloudfront.net/images/logo.png"></div> </a>
+      <div> <p> <a id="b1" href="South.html">Friday, Apr 29, 2022 | Last Update : 08:34 PM IST</a></p> </div>
+     </div>
+    <!-- ........................................ -->
+    <hr  width="90%"  color="black">
+     <div id="container3">
+      <div class="c1"><a href="index.html"><img height="30px" alt="" src="https://cdn-icons-png.flaticon.com/512/25/25694.png"></div> </a>
+      <div> <p> <a id="a1" style="color:#000000 ;" href="index.html"> Nation</a></p> </div>
+      <div> <p> <a id="a1" style="color:#000000 ;"  href="South.html"> South </a></p> </div>
+      <div> <p> <a id="a1" style="color:#000000 ;" href="World.html"> World</a></p> </div>
+      <div> <p> <a id="a1"style="color:#000000 ;"  href="Entertainment.html">Entertainment</a></p> </div>
+      <div> <p> <a id="a1" style="color:#000000 ;"  href="Job&Education.html">Job & Educations</a></p> </div>
+      <div> <p> <a id="a1" style="color:#000000 ;" href="Sports.html">Sports </a></p> </div>
+      <div> <p> <a id="a1" style="color:#000000 ;" href="Technology.html">Technology </a></p> </div>
+      <div> <p> <a id="a1"style="color:#000000 ;"  href="Lifestyle.html">Lifestyle </a></p> </div>
+      <div> <p> <a id="a1" style="color:#000000 ;" href="Gallary.html">Gallary</a></p> </div>
+
+
+       <div id="menu">
+           <ul>
+          
+              <a style="color: #000000;" href="#">More...
+                  <span class="arrow">&#x25BC;</span>
+              </a>
+              <!-- <ul class="submenu">
+                  <li>
+                      <a href="#">srgjhk</a>
+                  </li>
+                  <li>
+                      <a href="#">srgjhk</a>
+                  </li>
+                  <li>
+                      <a href="#">srgjhk</a>
+                  </li>
+              </ul> -->
+      </ul>
+      </div>
+     </div> 
+     <hr width="90%" >
+
+
+
+    <!-- .................................................................................................... -->
+    <div id="box">
+        <img src="https://tpc.googlesyndication.com/simgad/6697838393232861004/downsize_200k_v1?w=400&h=209"/>
+    </div>   
+
+    <div id="container">  
+        <div id="A">
+            <h3 style="color: teal;font-size: 20px; margin-left: 10px; " >JOBS & EDUCATION
+
+            </h3>
+            <!-- <hr  width="20%" color="red" margin-right="20px"> -->
+            <div>
+                <img alt="" src="https://dc-cdn.s3-ap-southeast-1.amazonaws.com/dc-Cover-0oq65ge0qcpuo13i3mfvu34qm3-20160318025256.jpeg"/>
+    
+               <h3 style="color: #000000; font-size: 22px; margin: 5px 0px 10px;">Centre sanctioned Rs 8,000 crore for highways in TS: Gadkari</h3>
+               <p style="color: #535353; font-size: 14px;">Of the 33 districts, 32 districts will get the best road connectivity in the state, the union minister said</p>
+            </div>
+            <div>
+                <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-g9ehh1svqd39a2rcnrspkget12-20220304002325.jpeg"/>
+                <h3 style="color: #000000; font-size: 22px; margin: 5px 0px 10px;">RJY- YSRC Sarpach murdered: Followers attack Gopalapuram MLA</h3>
+                <p style="color: #535353; font-size: 14px;">The Sarpanch Ganji Prasad was hacked to death on Saturday, allegedly by the rival groups in the party</p>
+    
+            </div>
+            <div>
+                <img alt="" src="https://dc-cdn.s3-ap-southeast-1.amazonaws.com/dc-Cover-1v1cl6ej5m7prb2v8vv2e7n1m0-20160523062024.jpeg"/>
+                 <h3 style="color: #000000; font-size: 23px; margin: 5px 0px 10px;">PM Modi bats for use of local languages in courts</h3>
+                 <p style="color: #535353; font-size: 14px;">The prime minister also appealed to chief ministers to repeal outdated laws to make delivery of justice easier</p>
+                </div>
+        </div>
+    
+        <!-- ................................................................................................................... -->
+       
+        <div id="B">
+        <div>
+            <div>
+            <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-09a8glc1o7e8k07gc6ke36rrt2-20220430001701.jpeg"/>
+           </div>
+           <div>
+            <p>TS fourth largest contributor to Indian economy: KTR</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-a6evhudunkpi3qp2smqcqkt113-20220503065428.jpeg"/>
+            </div>
+            <div>
+             <p>PM's lack of vision is root cause of all problems: KTR</p>
+                </div>
+        </div>
+        <div>
+            <div>
+                <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-tjbmaee6vvttimvhi4drslcvs0-20220503005019.jpeg"/>
+            </div>
+            <div>
+             <p>TS fourth largest contributor to Indian economy: KTR</p>
+                </div>
+        </div>
+        <div>
+            <div>
+                <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-p561amjnopsmnkfqpkunjag6n7-20220503223347.jpeg"/>
+            </div>
+            <div>
+             <p>India, Denmark sign 9 pacts, to ramp up trade
+            </p>
+                </div>
+        </div>
+        <div>
+            <div>
+                <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-a6evhudunkpi3qp2smqcqkt113-20220503104443.jpeg"/>
+            </div>
+            <div>
+             <p>Clashes hours before Eid in Rajasthan's Jodhpur; CM calls for peace
+            </p>
+                </div>
+        </div>
+        <div>
+            <div>
+                <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-i4iumtg47t6maaab7kh8s4cog7-20200713115758.jpeg"/>
+            </div>
+            <div>
+             <p>App-based autos charge high as RTA lacks control
+            </p>
+                </div>
+        </div>
+        <div>
+            <div>
+                <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-a6evhudunkpi3qp2smqcqkt113-20220503114407.jpeg"/>
+            </div>
+            <div>
+             <p>TS fourth largest contributor to Indian economy: KTR</p>
+                </div>
+        </div>
+        <div>
+            <div>
+                <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-a6evhudunkpi3qp2smqcqkt113-20220503133519.jpeg"/>
+            </div>
+            <div>
+             <p>TS fourth largest contributor to Indian economy: KTR</p>
+                </div>
+        </div>
+        <div>
+            <div>
+                <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-a6evhudunkpi3qp2smqcqkt113-20220503120853.jpeg"/>
+            </div>
+            <div>
+             <p>TS fourth largest contributor to Indian economy: KTR</p>
+                </div>
+        </div>
+        <div>
+            <div>
+                <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-d51mondbaernmd7f725ddgo6h7-20210329233712.jpeg"/>
+            </div>
+            <div>
+             <p>Sunstroke cases rise as summer peaks
+            </p>
+                </div>
+        </div>
+        <div>
+            <div>
+                <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-aq0hk5ejbnr7e2vgng6ef800b0-20211129224859.jpeg"/>
+            </div>
+            <div>
+             <p>TRS to mark 8-years of KCR as CM with massive outreach 
+            </p>
+                </div>
+        </div>
+        <div>
+            <div>
+                <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-a6evhudunkpi3qp2smqcqkt113-20220503132602.jpeg"/>
+            </div>
+            <div>
+             <p>Power generation hit at NTPC's Simhadri plant
+            </p>
+                </div>
+        </div>
+        <div>
+            <div>
+                <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-tjbmaee6vvttimvhi4drslcvs0-20220502222243.jpeg"/>
+            </div>
+            <div>
+             <p>Power generation hit at NTPC's Simhadri plant
+            </p>
+                </div>
+        </div>
+        <div>
+            <div>
+                <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-k6q1idbuvm0hpc4a6r878hgtu2-20220414222700.jpeg"/>
+            </div>
+            <div>
+             <p>Congress leaders pin revival hopes on Rahul’s meeting
+            </p>
+                </div>
+        </div>
+        </div>
+        
+        <!-- ..................................................................................................................... -->
+    
+    
+        <div id="C">
+            <div>
+                <h3 style="margin-left: 15px; color: teal; font-size: 20px; ">MOST POPULAR</h3>
+                <div>
+                    <div>
+                        <h4>Saileswaram Jatara turns a messy affair this year</h4>
+                    </div>
+                    <div>
+                        <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-o36kim7u1ok4vpopqtq1nm0hr0-20220417211254.jpeg"/>
+                    </div>
+                 </div>
+                
+                <div><div>
+                    <h4>What do we know about 'stealth omicron' so far?
+                    </h4>
+                </div>
+                <div>
+                    <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-f0hibq2oqnngsfh8avfva1ips6-20220111215037.jpeg"/>
+                </div></div>
+                <div><div>
+                    <h4>DC Exclusive: Rs 1,500 crore land scam in Hyderabad by GHMC, revenue dept
+                    </h4>
+                </div>
+                <div>
+                    <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-oeci978cir98mq4iv9hvt45rf1-20210626225545.jpeg"/>
+                </div></div>
+                <div><div>
+                    <h4>Over 140 goons barge into King Koti Palace
+                    </h4>
+                </div>
+                <div>
+                    <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-h4vevu8cn3vbmteelfj637a903-20220412010037.jpeg"/>
+                </div></div>
+                <div><div>
+                    <h4>13 new districts inaugurated in Andhra Pradesh; Full list here
+                    </h4>
+                </div>
+                <div>
+                    <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-d1i5qr9u1ojvsegt403bo7irb1-20220404161613.jpeg"/>
+                </div></div>
+                <div><div>
+                    <h4>Thousands of TN workers give finishing touches to new shrine
+                    </h4>
+                </div>
+                <div>
+                    <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-fafnh3dvnsrb2ebrvkbrt8fbv4-20220327005620.jpeg"/>
+                </div></div>
+            </div>
+            <div>
+                <h3 style="margin-left: 15px;">COLUMN :--</h3>
+                <div style="height: 220px;">
+                    <div>
+                        <h3 style="color: #383838; font-size: 18px; margin-left: 10px;"> Farrukh Dhondy | On returning to bookshops; challenges on social media  </h3>
+                        <a style="margin-left: 10px; font-size: 12px; color: #888888; "> Farrukh Dhondy
+                        </a>
+                        <p style="margin-left: 10px; color: #383838; font-size: 15px; ">
+                          Will the cautionary lifting of Covid-19 restrictions bring book buyers back to the bookshops to savour the browsing amongst physical books ?
+                        </p>
+                    </div>
+                    <div>
+                        <img style="border-radius: 100px; margin-top: 20px;" alt="" src="https://dc-cdn.s3-ap-southeast-1.amazonaws.com/d9b74ec141902048818bb30b64683c1e8d2f792f-tc-img-columnists.jpg"/>
+                    </div>
+                </div>
+    
+                <div style="height: 220px;">
+                    <div>
+                        <h3 style="color: #383838; font-size: 18px; margin-left: 10px;"> Where the BJP has succeeded, over its 2 terms from 2014, and where it failed </h3>
+                        <a style="margin-left: 10px; font-size: 12px; color: #888888; "> AAKAR PATEL
+    
+                        </a>
+                        <p style="margin-left: 10px; color: #383838; font-size: 15px; ">
+                            It appears to be the case that the BJP has shifted its focus from the economy to its primary social agenda
+                        </p>
+                    </div>
+                    <div>
+                        <img style="border-radius: 100px; margin-top: 20px;" alt="" src="https://dc-cdn.s3-ap-southeast-1.amazonaws.com/4914fbd3d05a8fb84e5caa1255b4dab095073c70-tc-img-columnists.jpg"/>
+                    </div>
+                </div>
+    
+                <div style="height: 220px;">
+                    <div>
+                        <h3 style="color: #383838; font-size: 18px; margin-left: 10px;"> Parsa Venkateshwar Rao Jr | Separate visions: Modi, Europe & Ukraine war
+                        </h3>
+                        <a style="margin-left: 10px; font-size: 12px; color: #888888; "> PARSA VENKATESHWAR RAO JR
+    
+                        </a>
+                        <p style="margin-left: 10px; color: #383838; font-size: 15px; ">
+                            The Europeans would not go beyond polite words to speak out against China in the context of the India-China conflict and confrontation
+                        </p>
+                    </div>
+                    <div>
+                        <img style="border-radius: 100px; margin-top: 20px;" alt="" src="https://dc-cdn.s3-ap-southeast-1.amazonaws.com/364a4c20bbb5313949b2734a03a494cf9716601b-tc-img-columnists.jpg"/>
+                    </div>
+                </div>
+                
+            </div>
+        
+            <div></div>
+        </div>
+        </div>
+    
+        <hr width="90%" color="black">
+
+<!-- !-- .................................................................................................... --> 
+<div id="D">
+    <div class="small">
+        <h3 style="padding-left: 10px; margin-top: 10px;">SOUTH</h3>
+        <div>
+            <!-- <a>TELANGANA</a>
+            <a>ANDHRA.PRADESH</a>
+            <a>TAMIL.NADU</a>
+            <a>KARNATAKA</a>
+            <a>KERALA</a> -->
+        </div>
+    </div>
+    <div class="big">
+        <div>
+            <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-fo5rq7lc2pvkpbm9e45glcrs84-20220420110407.jpeg"/>
+            <h3>No more Great Indian Bustard in AP</h3>
+        </div>
+        <div>
+            <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-om7c9p7c112g5lsg7e1ujqn8e3-20190515130911.jpeg"/>
+            <h3>Charak Shapath instead of Hippocratic Oath: Notice issued to Madurai Medical College</h3>
+        </div>
+        <div>
+            <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-6kkrk36m29brjgvhccr0rhdup0-20220329093540.jpeg"/>
+            <h3>Senior Kerala politician arrested for controversial remarks against Muslims</h3>
+
+        </div>
+        <div>
+            <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-5dbcj3djofpt1me4lshnl3sjc0-20190227005116.jpeg"/>
+            <h3>Madras HC grants mother nature 'living being' status with rights and duties</h3>
+        </div>
+    </div>
+    
+    <div class="medium">
+       <div>
+        <div>
+            <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-caj8qp60c1kv5p0dc27ufos7t3-20220501002259.Medi.jpeg"/>
+        </div>
+        <div>
+         <p>Hyderabad's Old city abuzz with festival shopping
+        </p>
+            </div>
+       </div>
+       <div>
+        <div>
+            <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-caj8qp60c1kv5p0dc27ufos7t3-20220501002259.Medi.jpeg"/>
+        </div>
+        <div>
+         <p>Hyderabad's Old city abuzz with festival shopping
+        </p>
+            </div>
+       </div>
+       <div>
+        <div>
+            <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-caj8qp60c1kv5p0dc27ufos7t3-20220501002259.Medi.jpeg"/>
+        </div>
+        <div>
+         <p>Hyderabad's Old city abuzz with festival shopping
+        </p>
+            </div>
+       </div>
+       <div>
+        <div>
+            <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-caj8qp60c1kv5p0dc27ufos7t3-20220501002259.Medi.jpeg"/>
+        </div>
+        <div>
+         <p>Hyderabad's Old city abuzz with festival shopping
+        </p>
+            </div>
+       </div>
+    </div>
+
+</div>
+<hr width="90%" color="black">
+
+<!-- .................................................................................................................... -->
+
+
+<div id="J">
+    <h3 style="margin-left: 10px;">TECHNOLOGY  </h3>
+    <div class="tech">
+    <div>
+        <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-v981omqo94ugmfqbfks9qgjt65-20220429104929.jpeg"/>
+        <h4>Musk sells $4B in Tesla shares, presumably for Twitter deal </h4>
+        <h4>Hyderabad police considering analyzers to catch drug users </h4>
+    </div>
+    <div>
+        <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-56df0rknb0cr6np31o46ro8gm1-20200821151937.jpeg"/>
+        <h4>Musk sells $4B in Tesla shares, presumably for Twitter deal </h4>
+        <h4>Hyderabad police considering analyzers to catch drug users </h4>
+    </div>
+    <div>
+        <img alt="" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-is46rorip9fvjg77epl4p4pte3-20220425135940.jpeg"/>
+        <h4>Musk sells $4B in Tesla shares, presumably for Twitter deal </h4>
+        <h4>Hyderabad police considering analyzers to catch drug users </h4>
+    </div>
+    <div style="background-color: #F8F8F8;" ></div>
+    </div>
+</div>
+<hr width="90%" color="black">
+
+</body>
+
+<!-- .............................................................................................................. -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  #footer1{
+      /* border: 1px solid; */
+      height: 220px;
+      background-color: #F2F2F2;
+      cursor: pointer;
+  }
+  input{
+      margin-left: 400px;
+  }
+  .foot1{
+      display: grid;
+      grid-template-columns: repeat(10,auto);
+       /* grid-template-rows: repeat(auto);  */
+       margin-top: 20px;
+       /* padding-left: 50px; */
+       color: #6D6D6D;
+       font-size: 15px;
+  }
+  .foot1>div{
+       padding-left: 30px;
+  }
+  .foot2{
+      margin-top: 10px;
+      padding-left: 560px;
+      color: #6D6D6D;
+       font-size: 17px;
+
+  }
+  /* p{
+      padding-left: 480px;
+      color: #7B7B7B;
+       font-size: 17px;
+  } */
+  button{
+      height: 25px;
+      width: 90px;
+      margin-left: 10px;
+      padding: 6px 27px;
+      
+  }
+</style>
+<body>
+    <div id="footer1">
+       <input style="width: 400px; height: 30px; margin-top: 20px;" type="text" placeholder="Serch By Google"/>
+       <button> </button>
+
+       <div class="foot1">
+       <div>HOME</div>
+       <div>ASIAN AGE</div>
+       <div>ANDHRABHOOMI</div>
+
+       <div>FINANCIAL</div>
+       <div>CHRONICLE</div>
+       <div>ABOUT US</div>
+       <div>CONTACT US</div>
+       <div>BOOK CLASSIFIEDS</div>
+       <div> FEEDBACK</div>
+       <div>CAREERS</div>
+    </div>
+    <div class="foot2">PRIVACY POLICY</div>
+    <p style="padding-left:480px ; color:#7B7B7B ; font-size: 17px; ">Copyright © 2015 - 2022 Deccan Chronicle.</p>
+     <p style="padding-left:480px ; color:#7B7B7B ; font-size: 17px; ">   Designed, Developed & Maintained By Daksham </p>
+    
+</body> 
+</html>
+
+
+
+
+
+
+
