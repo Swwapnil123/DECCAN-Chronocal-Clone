@@ -102,7 +102,6 @@ Source Code
 
 (MY blog link):-https://medium.com/p/76a5be7f39ed/edit
 
-(MY demo video link):-
 
 
 
